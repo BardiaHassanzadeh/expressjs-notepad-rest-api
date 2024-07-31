@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-notepad-rest-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful API for a notepad that uses MongoDB as its database and Express JS as its back-end framework.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahdiBehoftadeh/expressjs-notepad-rest-api.git"
+  },
+  "author": "Mahdi Behoftadeh (behoftadeh.ir)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MahdiBehoftadeh/expressjs-notepad-rest-api/issues"
+  },
+  "homepage": "https://github.com/MahdiBehoftadeh/expressjs-notepad-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
